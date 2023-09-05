@@ -1,6 +1,6 @@
 # Maven and Gradle
 
-This is practise project to refreshing springboot development using both maven and gradle.
+This is practise project to refreshing springboot development using both maven and gradle. We are going to make a simple web based application and setup a basic manually configuration to understand at command line.
 
 ## Maven Commands
 * Running the app
@@ -51,3 +51,8 @@ gradle bootJar
 ```cmd
 java -jar {path_to_jar_file}
 ```
+### Steps for Gradle on Spring boot
+1. Create a folder
+2. Make a build.gradle file (ref:./springboot-ex2-gradle/build.gradle)
+3. Make a MyApplication.java file (ref:./springboot-ex2-gradle/src/main/java/MyApplication.java)
+4. Run the application using gradle bootRun
