@@ -13,7 +13,8 @@ public class MyApplication {
 
 	@RequestMapping("/")
 	String home() {
-		return "Hello World!";
+		return "<h1>Hello World!, </h1><p>Greetings from Maven</p>"+
+		"<p>We are trying to implements dev tools.</p>";
 	}
 
 	public static void main(String[] args) {

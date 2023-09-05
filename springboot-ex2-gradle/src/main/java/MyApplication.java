@@ -13,7 +13,8 @@ public class MyApplication {
 
 	@RequestMapping("/")
 	String home() {
-		return "Hello World! from gradle build";
+		return "<h1>Hello World!</h1><p>Greeting from gradle build</p>"+
+		"<p>Welcome Aboard, we are prepared</p>";
 	}
 
 	public static void main(String[] args) {
