@@ -23,6 +23,10 @@ mvn package
 ```cmd
 java -jar {path_to_your_jar_file}
 ```
+* Environment variable
+```cmd
+export MAVEN_OPTS=-Xmx1024m
+```
 
 ### Steps for Maven Spring boot Project
 1. create a folder, choose a name.
@@ -51,6 +55,12 @@ gradle bootJar
 ```cmd
 java -jar {path_to_jar_file}
 ```
+* Environment Variables
+```cmd
+export JAVA_OPTS=-Xmx1024m
+```
+
+
 ### Steps for Gradle on Spring boot
 1. Create a folder
 2. Make a build.gradle file (ref:./springboot-ex2-gradle/build.gradle)
