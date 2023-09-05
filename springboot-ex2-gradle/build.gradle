@@ -1,0 +1,23 @@
+/* command: gradle classes */
+/* gradle dependencies */
+/* gradle bootRun */
+/* gradle bootJar => build/libs/ */
+
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.1.3'
+}
+
+apply plugin: 'io.spring.dependency-management'
+
+group = 'io.github.sorabh86.springbootgradlep1'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '17'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+}
